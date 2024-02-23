@@ -41,30 +41,25 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**First add all changes !**
+### `git add .`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**Then Commit !**
+### `git commit -m "(your message)"`
 
-### Code Splitting
+**To add remote repository to your existing project !**
+### 1. `git remote add origin https://github.com/sai-tech-dev/my-first.git`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+**To check branch !**
+### 2. `git branch`
 
-### Analyzing the Bundle Size
+**To pull from the remote repository !**
+### 3. `git pull origin master`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+**If above comment shows many unrelated histories !**
+### 4. `git pull origin master --allow-unrelated-histories` ###But it creates merge conflits resolve it
 
-### Making a Progressive Web App
+**Again run 3rd command !**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Push your project !**
+### 5. `git push --set-upstream origin master`
