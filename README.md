@@ -63,3 +63,9 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 **Push your project !**
 ### 5. `git push --set-upstream origin master`
+
+**TailwindCSS Installation !**
+### 6. `npm install -D tailwindcss`
+
+**Initialize tailwindcss !**
+### 7. `npx tailwindcss init`
