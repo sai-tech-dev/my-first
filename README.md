@@ -69,3 +69,10 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 **Initialize tailwindcss !**
 ### 7. `npx tailwindcss init`
+
+**After init include `["./src/**/*.{js,jsx,ts,tsx}"]` in content section of tailwind.config.js !**
+
+**After that include below commands in your .css file !**
+### `@tailwind base;`
+### `@tailwind components;`
+### `@tailwind utilities;`
