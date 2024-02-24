@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bg-skycolor {
+    background: #5B7C99;
+}
+
+nav ul {
+    @apply text-white;
+}
+
+.btn {
+    @apply bg-skycolor px-2 py-2 font-bold hover:border-2 border-white rounded;
+}
